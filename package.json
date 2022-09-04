@@ -1,0 +1,32 @@
+{
+  "name": "code_editor",
+  "version": "0.1.0",
+  "private": true,
+  "main": "API/websocket.js",
+  "scripts": {
+    "test": "node API/websocket.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@onehop/client": "^1.3.14",
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "biguint-format": "^1.0.2",
+    "express": "^4.18.1",
+    "flake-idgen": "^1.4.0",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
